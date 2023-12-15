@@ -1,0 +1,46 @@
+iOp: int
+iN1: float
+iN2: float
+
+# op=1 => ADIÇÂO | op=2 => SUBTRAÇÂO | op=3 => MULTIPLICAÇÂO | op=4 => DIVISÂO | op=0 => SAIR
+def calc(op, n1, n2):
+  if op == 1:
+    return n1 + n2
+  elif op == 2:
+    return n1 - n2
+  elif op == 3:
+    return n1 * n2
+  elif op == 4:
+    return n1 / n2
+  else:
+      return print("Opção inválida!")  
+
+while True:
+  iOp = int(input("Por favor, insira: 1 => ADIÇÂO | 2 => SUBTRAÇÂO | 3 => MULTIPLICAÇÂO | 4 => DIVISÂO | 0 => SAIR: "))
+  iN1 = float(input("Agora insira o 1º número para a operação selecionada: "))
+  iN2 = float(input("E por último o 2º número para a operação selecionada: "))
+  calc(iOp, iN1, iN2)
+  if(iOp == 0):
+    break
+ 
+  
+  
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
