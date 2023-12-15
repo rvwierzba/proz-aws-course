@@ -13,7 +13,7 @@ def calc(op, n1, n2):
   elif op == 4:
     return n1 / n2
   else:
-      return print("Opção inválida!")  
+      return False
 
 while True:
   iOp = int(input("Por favor, insira: 1 => ADIÇÂO | 2 => SUBTRAÇÂO | 3 => MULTIPLICAÇÂO | 4 => DIVISÂO | 0 => SAIR: "))
