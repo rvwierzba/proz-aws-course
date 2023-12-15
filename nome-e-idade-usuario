@@ -1,0 +1,12 @@
+from datetime import datetime, timezone
+
+thisYear = int(datetime.now().year)
+
+fullName = input("Atençao usuário por favor isira seu nome completo: ")
+yearBday = int(input("Agora digite o ano do seu Nascimento: *Lumbrendo que só serão aceitos valotes entre 1922 e 2021* : "))
+
+if yearBday >= 1922 and yearBday <= 2021:
+  print(f'Seu nome é {fullName} e sua idade é ou será até o final deste ano: {thisYear - yearBday}')
+
+else:
+  print(f'Seu nome é {fullName} e seu ano de nascimento é inválido! Por favor tente novamente para calcular a sua idade.')
