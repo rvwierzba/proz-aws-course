@@ -1,0 +1,14 @@
+lista_musicos = [ 'Djavan', 'Roberto Carlos', 'Elis Regina', 'Tom Jobim', 'Milton Nascimento', 'Chico Buarque', 'Nara Leão', 'Pitty', 'Simonal', 'Moacir Santos', 'Caetano Veloso', 'Elza Soares', 'Paulinho da Viola', 'Yamandú Costa', 'Gal Costa'] 
+
+nSinger = len(lista_musicos)
+data_i2 = lista_musicos[2]
+data_i9 = lista_musicos[9]
+data_i14 = lista_musicos[14]
+
+def printExResult(singerQuantity, dataINDX_2, dataINDX_9, dataINDX_14):
+  print("A quantidade de cantores é: " + str(singerQuantity))
+  print("\n O cantor no Índice 2 = " + str(dataINDX_2))
+  print("\n O cantor no Índice 9 = " + str(dataINDX_9)) 
+  print("\n O cantor no Índice 14 = " + str(dataINDX_14)) 
+  
+printExResult(nSinger, data_i2, data_i9, data_i14)
