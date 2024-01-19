@@ -1,0 +1,22 @@
+Enunciado: Observe as três capturas de tela em anexo. Cada uma delas tem áreas sinalizadas e numeradas, além de um grupo específico de tags HTML logo embaixo.
+
+Em um arquivo aparte, associe cada tag HTML com o respectivo número da área que o representa (Exemplo: 1. footer, 2. input, etc...), suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+Resolução:
+
+1 - HEADER
+2 - MAIN
+3 - NAV
+4 - IMG
+5 - H1
+6 - H2
+7 - P
+8 - A
+9 - SECTION OU DIV
+10 - UL
+11 - LI
+12 - FORM
+13 - LABEL
+14 - INPUT
+15 - SELECT
+16 - BUTTON
