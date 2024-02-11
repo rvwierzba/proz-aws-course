@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+  background: rgb(183, 13, 13);
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+.content{
+  margin-top: 12%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: space-between;
+}
+
+.pontoTuristico{
+  border: 1px solid #fff;
+  border-radius: 8px;
+  display: flex;
+}
+
+img{
+  width: 50%;
+  height: 30%;
+}
