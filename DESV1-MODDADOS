@@ -1,0 +1,27 @@
+/*
+
+	EX PROPOSTO: O desenvolvimento de um projeto de banco de dados passa por fases importantes para a sua 	implementação, como a de projeto conceitual. Diante disso, crie uma entidade que tenha atributos simples, 	composto e multivalorado.
+
+	Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o 	link no campo ao lado para que outros desenvolvedores possam analisá-lo. 
+	
+
+*/
+
+
+
+
+
+POWERED BY RVWtech - https://www.rvwtech.com.br
+
+    Usuário:
+        UserID (PK)
+        Nome
+        Sobrenome
+        Endereço: Composto por (Rua, Número, Complemento, Cidade, Estado, CEP)
+        Telefones: Multivalorado (pode ser representado como uma entidade separada ou uma tabela relacionada)
+
+
+    Telefone:
+        TelefoneID (PK)
+        UserID (FK): Chave estrangeira que vincula ao Usuário
+        Número
